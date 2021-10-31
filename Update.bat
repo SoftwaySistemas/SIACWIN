@@ -8,4 +8,4 @@ rem Comando para descompactar o SIACWIN.zip
 %PATH_WZZIP%\WZUnZip.exe -ybc SIACWIN.zip
 
 rem Comando para descompactar o CEF_BINARY.zip
-%PATH_WZZIP%\WZUnZip.exe -ye -ybc CEF_BINARY.zip
+%PATH_WZZIP%\WZUnZip.exe -d -ybc CEF_BINARY.zip
