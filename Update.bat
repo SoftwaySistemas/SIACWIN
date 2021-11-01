@@ -1,5 +1,4 @@
 @ECHO OFF
-SET SOURCE="https://github.com/SoftwaySistemas/SIACWIN.git/trunk"
 SET PATH_WZZIP="C:\Program Files (x86)\WinZip"
 
 TortoiseProc.exe /command:update /path:".\" /closeonend:1
