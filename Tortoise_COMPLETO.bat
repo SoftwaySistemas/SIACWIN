@@ -1,4 +1,5 @@
 @ECHO OFF
+SET PATH=%PATH%;..\..\TortoiseSVN\bin
 SET PATH_WZZIP="C:\Program Files (x86)\WinZip"
 
 TortoiseProc.exe /command:update /path:".\" /closeonend:1
