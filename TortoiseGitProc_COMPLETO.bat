@@ -1,0 +1,20 @@
+@ECHO OFF
+SET PATH=%PATH%;..\..\TortoiseSVN\bin
+SET PATH_WZZIP="C:\Program Files (x86)\WinZip"
+
+TortoiseGitProc.exe /command:pull /path:".\" /closeonend:2
+
+rem Comando para descompactar o SIACWIN.zip
+%PATH_WZZIP%\WZUnZip.exe -d -ybc SIACWIN.zip
+
+rem Comando para descompactar o VAZIO.zip
+%PATH_WZZIP%\WZUnZip.exe -d -ybc VAZIO.zip
+
+rem Comando para descompactar o CEF_BINARY.zip
+%PATH_WZZIP%\WZUnZip.exe -d -ybc CEF_BINARY.zip
+
+rem Comando para descompactar o Imagens.zip
+%PATH_WZZIP%\WZUnZip.exe -d -ybc Imagens.zip .\Imagens\
+
+rem Comando para descompactar o Schemas.zip
+%PATH_WZZIP%\WZUnZip.exe -d -ybc Schemas.zip .\Schemas\
