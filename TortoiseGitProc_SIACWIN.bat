@@ -2,8 +2,9 @@
 SET PATH=%PATH%;..\..\TortoiseSVN\bin
 SET PATH_WZZIP="C:\Program Files (x86)\WinZip"
 
-TortoiseGitProc.exe /command:fetch /path:".\SIACWIN.ZIP.\VAZIO.ZIP" /closeonend:1
-rem TortoiseGitProc.exe /command:pull /path:".\SIACWIN.ZIP.\VAZIO.ZIP" /closeonend:1
+TortoiseGitProc.exe /command:fetch /path:".\SIACWIN.ZIP.\VAZIO.ZIP" /closeonend:2
+
+TortoiseGitProc.exe /command:pull /path:".\SIACWIN.ZIP.\VAZIO.ZIP" /closeonend:2
 
 rem Comando para descompactar o SIACWIN.zip
 %PATH_WZZIP%\WZUnZip.exe -d -ybc SIACWIN.zip
