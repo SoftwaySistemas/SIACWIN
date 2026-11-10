@@ -10,8 +10,12 @@ rem Comando para descompactar o SIACWIN.zip
 rem Comando para descompactar o VAZIO.zip
 %PATH_WZZIP%\WZUnZip.exe -d -ybc VAZIO.zip
 
+cd D:\server\Instaladores\SOFTWAY\SIACWIN\
+copy SIACWIN_v11.exe SIACWIN.exe
+copy SIACWIN_v11.map SIACWIN.map
+
 cd D:\server\SoftWay\SIACWIN
-start D:\server\SoftWay\SIACWIN\Launcher.exe
+rem start D:\server\SoftWay\SIACWIN\Launcher.exe
 
 echo.
-rem pause
+pause
